@@ -97,6 +97,7 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 2rem 0;
 }
 
 section .bg-image {
@@ -129,6 +130,7 @@ section .content .cotnent__stats .stat {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    margin: 0;
   }
   section .bg-image {
     height: auto;
@@ -140,6 +142,9 @@ section .content .cotnent__stats .stat {
 }
 
 @media only screen and (min-width: 375px) {
+  section {
+    margin: 0;
+  }
   section .content .cotnent__stats {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
